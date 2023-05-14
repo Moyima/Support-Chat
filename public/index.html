@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
+
+    <title>Support chat</title>
+    <meta name="description" content="A simple chat system with private messages, using Node.js and Socket.io">
+
+    <link type="text/css" rel="stylesheet" href="./css/style.css" media="screen">
+</head>
+<body>
+    <div id="wrapper">
+        <h1>Support chat</h1>
+
+        <div id="support-chat">
+            <div class="info">
+                <div id="status">Connecting...</div>
+                <div id="online">There are <span id="total">0</span> users online.</div>
+                <div>You are: <span id="nick"></span></div>
+            </div>
+            <div id="logs">
+                <div id="messages"><ul></ul></div>
+                <div id="users"><ul></ul></div>
+            </div>
+            <div class="controls">
+                <input type="text" id="chatInput" name="chatInput" maxlength="255" value="" />
+                <div id="talkto">
+                    You are talking to: <span id="selected">Everyone</span>
+                    <a id="everyone" href="#" title="Stop private chatting and go back talking to everyone">( X )</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="/js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="/socket.io/socket.io.js"></script>
+    <script type="text/javascript" src="/js/support-chat.js"></script>
+</body>
+</html>
