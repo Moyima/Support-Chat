@@ -16,9 +16,7 @@
     "chat",
     "websockets",
     "socket.io",
-    "express",
-    "tutorial",
-    "example"
+    "express"
   ],
   "author": "Moyima",
   "license": "MIT",
