@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Fabryz/support-chat.git"
+    "url": "git+https://github.com/Moyima/Support-Chat.git"
   },
   "keywords": [
     "chat",
@@ -20,12 +20,12 @@
     "tutorial",
     "example"
   ],
-  "author": "Fabrizio Codello",
+  "author": "Moyima",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Fabryz/support-chat/issues"
+    "url": "https://github.com/Moyima/Support-Chat.git"
   },
-  "homepage": "https://github.com/Fabryz/support-chat#readme",
+  "homepage": "https://github.com/Moyima/Support-Chat.git",
   "dependencies": {
     "express": "^4.18.2",
     "socket.io": "^4.4.1"
